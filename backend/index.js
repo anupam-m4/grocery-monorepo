@@ -10,7 +10,7 @@ import categoryRouter from "./routes/category.routes.js";
 import productRouter from "./routes/product.routes.js";
 import addressRouter from "./routes/address.routes.js";
 import orderRouter from "./routes/order.routes.js";
-import paymentRouter from "./routes/payment.routes.js"; 
+// import paymentRouter from "./routes/payment.routes.js"; 
 
 
 const app = express();
@@ -36,7 +36,7 @@ app.use("/api/category", categoryRouter);
 app.use("/api/product", productRouter);
 app.use("/api/address", addressRouter);
 app.use("/api/order", orderRouter);
-app.use("/api/payment", paymentRouter);
+// app.use("/api/payment", paymentRouter);
 
 
 const PORT = process.env.PORT || 3000;
